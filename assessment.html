@@ -170,7 +170,78 @@
     **************************************************************************** -->
     <h1> FORM </h1>
 
-    <form class="" action="index.html" method="post">
+    <form>
+        <!-- ***************************************
+            Text
+        *************************************** -->
+        <form class="" action="index.html" method="post">
+            <label for="First">First:</label>
+            <input type="Text" name="First" placeholder="John">
 
+            <label for="Last">Last:</label>
+            <input type="Text" name="Last" placeholder="Doe">
+        </form>
+
+        <br>
+
+        <!-- ***************************************
+            Drop down list
+        *************************************** -->
+        <form>
+            <label for="FavSport">Favorite Sport:</label>
+            <br>
+            <select name="FavSport" id="FavSport">
+                <option value="Soccer"> Soccer </option>
+                <option value="AmericanFootball"> American Football </option>
+                <option value="Hockey"> Hockey </option>
+                <option value="Baseball"> Baseball </option>
+            </select>
+        </form>
+
+        <br>
+
+        <!-- ***************************************
+            Checkboxes
+        *************************************** -->
+        <form>
+            <label for="IHave"> I have: </label>
+
+                <input type="checkbox" id="IHave1" name="IHave" value="Attended">
+                <label for="IHave1"> Attended </label>
+
+                <input type="checkbox" id="IHave2" name="IHave" value="Played">
+                <label for="IHave2"> Played </label>
+
+                <input type="checkbox" id="IHave3" name="IHave" value="Coached">
+                <label for="IHave3"> Coached </label>
+
+                <input type="checkbox" id="IHave4" name="IHave" value="Bet On">
+                <label for="IHave4"> Bet on </label>
+
+            <br>
+            <label for="ThisSport"> this sport </label>
+        </form>
+
+        <br>
+
+        <!-- ***************************************
+            Radio Buttons
+        *************************************** -->
+        <form>
+            <label for="PreferLevel"> For this sport I prefer the: </label>
+
+            <input type="radio" id="PreferLevel1" name="PreferLevel" value="Amateur">
+            <label for="PreferLevel1"> Amateur </label>
+
+            <input type="radio" id="PreferLevel2" name="PreferLevel" value="College">
+            <label for="PreferLevel2"> College </label>
+
+            <input type="radio" id="PreferLevel3" name="PreferLevel" value="Professional">
+            <label for="PreferLevel3"> Professional </label>
+        </form>
+
+        <br>
+
+        <input type="submit" value="Submit Query">
     </form>
 </html>
