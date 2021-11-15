@@ -100,13 +100,15 @@ tr:nth-child(odd) td:nth-child(even)
 /* ----------------------------------------------------------------------------
     Stretch 3
 ---------------------------------------------------------------------------- */
-#teamRoster > *::before {
-    position: absolute;
-    opacity: 0.1;
-}
 #teamRoster > :first-child::before {
     content: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
 }
 #teamRoster > :last-child::before {
     content: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
 }
