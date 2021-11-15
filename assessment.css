@@ -82,3 +82,18 @@ blockquote {
 #teamRoster > li > ul > li > ol > :first-child {
     font-weight: bolder;
 }
+
+
+/* ----------------------------------------------------------------------------
+    Stretch 2
+---------------------------------------------------------------------------- */
+tr td
+{
+    background-color: #fff;
+}
+
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even)
+{
+    background-color: #ccc;
+}
